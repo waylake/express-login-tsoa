@@ -1,0 +1,20 @@
+{
+  "entryFile": "src/app.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/**/*Controller.ts"],
+  "spec": {
+    "outputDirectory": "tsoa-ouput",
+    "specVersion": 3,
+    "basePath": "/v1"
+  },
+  "routes": {
+    "routesDir": "tsoa-ouput",
+    "host": "localhost:3000",
+    "basePath": "/v1"
+  },
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
